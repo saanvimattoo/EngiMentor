@@ -1,0 +1,376 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    background-color: #83c9f4;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+#logo{
+    height: 50px;
+    margin-right: 5rem;
+}
+#logo img{
+    height: 50px;
+    transition: .5s;
+}
+#logo img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.navbar ul{
+    display: flex;
+    gap: 4rem;
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.navbar ul li:hover{
+    background-color: #63C132;
+    color: white;
+    
+}
+.main{
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+
+#q1{
+    position: absolute;
+    width: 700px;
+    margin: 3rem 0 0 4rem;
+}
+#q1 p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+#q2{
+    position: absolute;
+    width: 700px;
+    margin: 12rem 0 0 7rem;
+    
+}
+#q2 p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.quote{
+    background-position-x: right;
+    background-image: url("img1.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #d9f0ff;
+    min-height: 430px;
+}
+
+#p1{
+    font-family:sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#p2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #7a7a7a;
+}
+#title{
+    margin: 30px 0 30px 0;
+    text-align:center;
+}
+
+#resources{
+    margin: 100px 0 300px 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    flex-wrap: wrap;
+
+}
+.box{
+    width:450px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    transition:.5s;
+}
+.box:hover{
+    border:2px solid rebeccapurple;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+.box:active{
+    background-color:#edf2fb ;
+}
+
+.boxlogo{
+    height: 160px;
+    margin:10px 0 10px 50px;
+    padding: 10px 0 10px 20px;
+}
+
+
+.bh{margin-top: 20px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #03045e;
+}
+#bt{
+    text-align: center;
+    margin-top: 15px;
+    color: gray;
+}
+
+#i1{
+    height: 150px;
+}
+#i2{
+    height: 150px;
+}
+#i3{
+    height: 150px;
+}
+#i4{
+    height: 150px;
+}
+
+footer{
+    background-color: #caf0f8;
+    margin-top: 200px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap:150px;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+.footerimg img{
+    height: 80px;
+}
+
+.footerimg p{   
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quick p{
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.quick ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color:#3c1642;
+}
+
+.quick ul li, .footerimg img, .contact ul li :hover{
+    cursor: pointer;
+}
+.contact p{
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.contact ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.contact ul li span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color:black;
+}
+
+#cpyrt{
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.subject{
+    margin: 0 0 100px 0;
+    padding: 70px 0 100px 0;
+    background-color: #ecd6fc;   
+    display:flex;
+    justify-content: space-around;
+      
+}
+.subhead{
+    padding-top: 20px;
+    background-color: #ecd6fc;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color:black;
+}
+.subhead p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.subject .sub1 p, .subject .sub2 p{
+    padding: 15px;
+    margin-top: 20px;
+    border: 2px solid purple;
+    box-shadow: 1px 1px 4px #3c096c;
+    background-color: #dbaaff;
+    /* color: black; */
+    border-radius: 15px;
+    transition: 0.5s;
+    font-size: 1.3rem;
+
+}
+
+.subject p:hover{
+    background-color:#3c096c;
+    color: white;
+    cursor: pointer;
+}
+.subject p:active{
+    background-color:#7b2cbf;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-us {
+    background-color: #065a82;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 4rem;
+}
+#eml{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 450px;
+    overflow: hidden;
+}
+
+.contact-us h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #053d23;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#aubutton {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0e6ba8;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#aubutton:hover {
+    background-color: #a6e1fa;
+    color: black;
+}
+
+.aucontainer {
+    width: 1200px;
+    height:1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 25px;
+    border: 2px solid yellowgreen;
+    background-color: #3fc1c0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h1 {
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+.about-us h2 {
+    color: black;
+    padding: 1rem;
+}
+
+.about-us p {
+    line-height: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-us ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    padding: 2rem;
+}
+
+.about-us ul li {
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+strong {
+    color: black;
+}

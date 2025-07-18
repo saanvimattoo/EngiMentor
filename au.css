@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.aucontainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5efff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h1 {
+    text-align: center;
+    color: #0073e6;
+}
+
+.about-us h2 {
+    color: #005bb5;
+}
+
+.about-us p {
+    line-height: 1.6;
+}
+
+.about-us ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-us ul li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #0073e6;
+}
+
+.contact-us {
+    background-color: #065a82;
+    color: white;
+    padding: 40px 20px;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 450px;
+    overflow: hidden;
+}
+
+.contact-us h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #053d23;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#aubutton {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0e6ba8;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#aubutton:hover {
+    background-color: #a6e1fa;
+    color: black;
+}
