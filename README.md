@@ -49,17 +49,6 @@ EngiMentor/
 
 ---
 
-
-This nesting can break formatting or cause parts to render incorrectly (like turning text into a comment-looking block).
-
----
-
-### ✅ Fix: Use **indented code blocks** instead of triple backticks inside lists
-
-Here’s a clean version that works **perfectly in GitHub’s `README.md`** — without any formatting errors:
-
----
-
 ## 🚀 How to Run Locally
 
 1. **Clone the repository**
